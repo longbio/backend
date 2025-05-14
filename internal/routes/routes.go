@@ -6,4 +6,5 @@ func SetupRoutes(r *gin.Engine) {
 	v1 := r.Group("v1")
 
 	AuthRoutes(v1)
+	UserRoutes(v1)
 }

@@ -1,10 +1,13 @@
 package messages
 
 const (
-	GeneralSuccess    = "GeneralSuccess"
-	GeneralFailed     = "GeneralFailed"
-	GeneralBadRequest = "GeneralBadRequest"
+	GeneralSuccess      = "GeneralSuccess"
+	GeneralFailed       = "GeneralFailed"
+	GeneralBadRequest   = "GeneralBadRequest"
+	GeneralUnauthorized = "GeneralUnauthorized"
 
-	InvalidVerificationCode = "Verification code is invalid"
-	InvalidRefreshToken     = "Refresh token is invalid"
+	InvalidVerificationCode = "InvalidVerificationCode"
+	InvalidRefreshToken     = "InvalidRefreshToken"
+
+	UserNotFound = "UserNotFound"
 )
