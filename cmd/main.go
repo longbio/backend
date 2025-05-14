@@ -23,7 +23,7 @@ func main() {
 	database.InitRedis()
 
 	r := gin.Default()
-	// gin.SetMode(gin.ReleaseMode)
+	gin.SetMode(gin.ReleaseMode)
 
 	r.Use(cors.New(cors.Config{
 		AllowOrigins:     []string{"http://localhost:3000"},
